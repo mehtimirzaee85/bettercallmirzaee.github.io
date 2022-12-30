@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: poppins , sans-serif;
+    background-color: rgb(224, 223, 223);
+}
+
+li a {
+    color: #121212;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-left: 600px;
+    list-style: none;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+li a {
+    font-size: 18px;
+}
+
+.menu div{
+    display: none;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background-color: #121212;
+}
+
+
+li a:hover {
+    color: gray;
+    transition: 0.3s;
+    opacity: 87%;
+    
+}
+
+
+.hero{
+    margin-top: 50px;
+    margin-right: 70px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    display: block;
+}
+
+
+h1{
+    font-size: 40px;
+    margin-left: 110px;
+}
+
+
+.zirsh1{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+
+}
+
+.zirsh1 span{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.zirsh1 h1{
+    margin-right: 60px;
+    margin-top: 90px;
+}
+
+.zirsh{
+    border-bottom: solid black 2px;
+    border-top: solid black 2px;;
+}
+
+.law h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 180px;
+    letter-spacing: 200px;
+    margin-left: 230px;
+}
+
+.fotter{
+    font-weight: 500;
+    text-transform: capitalize;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    background-color: #121212;
+}
+
+.ourteam{
+    width: 1090px;
+    height: 600px;
+    padding: 20px;
+    margin: 50px 90px;
+    box-shadow: 0px 0px 10px 2px gray;
+
+    background: url(images/7766621.jpg);
+    background-size: cover;
+
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.title h2{
+    width: 1130px;
+    margin: 0px 110px;
+    color: black;
+    font-size: 172px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+.service{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: aliceblue;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+
